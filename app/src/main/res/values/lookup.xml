@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawerMenuTitles">
+        <item>@string/address_capital</item>
+        <item>@string/profile_capital</item>
+        <item>@string/order_capital</item>
+        <item>@string/categories_capital</item>
+        <item>@string/inbox_capital</item>
+        <item>@string/live_chat_capital</item>
+        <item>@string/setting_capital</item>
+        <item>@string/about_us_capital</item>
+        <item>@string/terms_capital</item>
+    </string-array>
+
+</resources>

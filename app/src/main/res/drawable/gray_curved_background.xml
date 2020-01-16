@@ -1,0 +1,34 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="0"
+        android:endColor="@color/light_gray_color"
+        android:startColor="@color/light_gray_color"
+        android:type="linear" />
+
+    <corners android:radius="@dimen/_20sdp" />
+
+</shape>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/light_gray_color" />
+                    <corners android:radius="@dimen/_15sdp" />
+                </shape>
+            </item>
+
+            <item android:right="@dimen/_8sdp">
+                <bitmap android:gravity="center|right" android:src="@drawable/ic_down_arrow_spinner" />
+
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

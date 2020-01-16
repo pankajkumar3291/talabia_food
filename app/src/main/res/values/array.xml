@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="cutting_service_array">
+        <item>1 inch</item>
+        <item>2 inch</item>
+        <item>3 inch</item>
+        <item>4 inch</item>
+        <item>5 inch</item>
+        <item>6 inch</item>
+        <item>7 inch</item>
+        <item>8 inch</item>
+        <item>9 inch</item>
+        <item>10 inch</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f0f0f0"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/bannerViewPager"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_135sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                app:centered="true"
+                app:fillColor="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/bannerViewPager"
+                app:layout_constraintEnd_toEndOf="@+id/bannerViewPager"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/bannerViewPager"
+                app:layout_constraintTop_toTopOf="@+id/bannerViewPager"
+                app:layout_constraintVertical_bias="0.95"
+                app:pageColor="@android:color/white"
+                app:snap="false" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/allCategoriesImagesRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/categoryDynamicRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

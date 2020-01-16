@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:chainUseRtl="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.smartit.talabia.components.TalabiaTextView
+        android:id="@+id/tv_verification_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:gravity="center"
+        android:paddingEnd="@dimen/_20sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:text="@string/enter_the_code_you_have_received_by_email_or_sms"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_verification_message">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.smartit.talabia.components.TalabiaEditText
+                android:id="@+id/et_text_1"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_5sdp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/_14ssp">
+
+                <requestFocus />
+            </com.smartit.talabia.components.TalabiaEditText>
+
+            <com.smartit.talabia.components.TalabiaEditText
+                android:id="@+id/et_text_2"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_5sdp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/_14ssp" />
+
+            <com.smartit.talabia.components.TalabiaEditText
+                android:id="@+id/et_text_3"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_5sdp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/_14ssp" />
+
+            <com.smartit.talabia.components.TalabiaEditText
+                android:id="@+id/et_text_4"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_5sdp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/_14ssp" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_new_pwd">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            app:cardCornerRadius="@dimen/_3sdp"
+            app:cardElevation="@dimen/_2sdp"
+            app:cardUseCompatPadding="true">
+
+            <com.smartit.talabia.components.TalabiaTextView
+                android:id="@+id/tv_verify"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/button_background"
+                android:gravity="center"
+                android:text="@string/verify"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

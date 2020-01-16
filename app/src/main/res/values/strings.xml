@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name" translatable="false">Talabia</string>
+
+    <string name="facebook_app_id" translatable="false">392885281562888</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb392885281562888</string>
+
+    <string name="bottom_home">HOME</string>
+    <string name="bottom_search">SEARCH</string>
+    <string name="bottom_offers">OFFERS</string>
+    <string name="bottom_orders">ORDERS</string>
+
+    <string name="no_internet_label">Internet Not Available</string>
+    <string name="check_your_connection">Please check your connection !!!</string>
+    <string name="reallyExit">Do you really want to exit?</string>
+    <string name="cancel_str">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="english" translatable="false">ENGLISH</string>
+    <string name="arabic" translatable="false">عربى</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in_capital">SIGN IN</string>
+    <string name="or">OR</string>
+    <string name="continue_as_guest">CONTINUE AS GUEST</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="sign_up_capital">SIGN UP</string>
+    <string name="save_capital">SAVE</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_the_code_you_have_received_by_email_or_sms">Enter the code you have received by \n Email / SMS in order to verify your \n account</string>
+    <string name="verify">VERIFY</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="enter_4_digit_recovery_code">Enter 4-digit \n Recovery Code</string>
+    <string name="recovery_code_was_sent_to_your_email_address">Recovery code was sent to your email \n address.Please enter the code.</string>
+    <string name="send_capital">SEND</string>
+    <string name="recovery_code">Recovery Code</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="please_enter_your_email_phone_that_you_use_to_login">Please enter your email / Phone that you \n use to login. We will send you recovery \n code to reset your password.</string>
+    <string name="reset_capital">RESET</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="done_capital">DONE</string>
+    <string name="logout">Logout</string>
+    <string name="address_capital">MY ADDRESS</string>
+    <string name="profile_capital">MY PROFILE</string>
+    <string name="order_capital">MY ORDER</string>
+    <string name="categories_capital">ALL CATEGORIES</string>
+    <string name="inbox_capital">INBOX</string>
+    <string name="live_chat_capital">LIVE CHAT</string>
+    <string name="setting_capital">SETTINGS</string>
+    <string name="about_us_capital">ABOUT US</string>
+    <string name="terms_capital">TERMS</string>
+    <string name="all_categories">All Categories</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="reward_points">Reward Points : </string>
+    <string name="gender">Gender</string>
+    <string name="edit_profile_capital">EDIT PROFILE</string>
+    <string name="my_profile">My Profile</string>
+    <string name="save_profile_capital">SAVE PROFILE</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="new_arrival">New Arrival</string>
+    <string name="view_all">View All</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="notification">Notification</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="contact_us_feedback">Contact us &amp; feedback</string>
+    <string name="all_fields_required">All fields are required</string>
+    <string name="enter_email_or_mobile">Please enter email or mobile</string>
+    <string name="valid_email">Please enter valid email</string>
+    <string name="valid_phone_number">Please enter valid phone number</string>
+    <string name="confirm_password_not_matched">Confirm password not matched</string>
+    <string name="password_min_character">Password minimum character should be 8</string>
+    <string name="server_is_under_maintenance">Server is Under Maintenance</string>
+    <string name="choose_from">Choose from</string>
+    <string name="close">Close</string>
+    <string name="camera_str">Camera</string>
+    <string name="gallery_str">Gallery</string>
+    <string name="sureToDelete">Are you sure you want to delete?</string>
+    <string name="note">Note :</string>
+    <string name="additional_products_based_on">Additional products will be based on original \n product price</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to Logout?</string>
+    <string name="lorem_ipsum_is_simply_dummy_text">Lorem Ipsum is simply dummy text of the printing \n and type setting industry. Lorem Ipsum has been \n the industry\'s standard dummy text.</string>
+    <string name="contact">Contact</string>
+    <string name="working_day">Working day</string>
+    <string name="informations">Informations</string>
+    <string name="ask_a_question">Ask a question</string>
+    <string name="faq">FAQ</string>
+    <string name="service">Service</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_select_gender">Please select gender</string>
+    <string name="items_included">Items included</string>
+    <string name="full_dish_price">Full Dish Price</string>
+    <string name="add_all_items_to_cart">Add all items to cart</string>
+    <string name="no_data_to_display">No data to display</string>
+    <string name="nutritional_facts">Nutritional Facts</string>
+    <string name="how_to_prepare">How to Prepare</string>
+    <string name="similar_products">Similar Products</string>
+    <string name="related_products">Related Products</string>
+    <string name="other_bundles">Other Bundles</string>
+    <string name="dish_using_this_product">Dish Using this Product</string>
+
+    <string name="what_is_included">What is included</string>
+    <string name="recipe_ideas">Recipe Ideas</string>
+    <string name="cutting_service">Cutting Service</string>
+    <string name="this_non_refundable_product">This is a non refundable product addon</string>
+    <string name="enable_cutting_service">Enable Cutting Service KD </string>
+    <string name="this_service_is_only_for_online_payment">This service is only for online payment. \n You also may receive a call from us.</string>
+    <string name="special_request">Special Request</string>
+
+
+</resources>
