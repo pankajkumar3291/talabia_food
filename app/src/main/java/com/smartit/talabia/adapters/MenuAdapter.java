@@ -1,5 +1,6 @@
 package com.smartit.talabia.adapters;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -47,7 +48,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         final String menuTitle = this.menuStringList[position];
         int menuImage = this.menuImageList[position];
 
@@ -104,7 +105,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         return ObjectUtil.isEmpty(this.menuStringList) ? 0 : this.menuStringList.length;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    static class ViewHolder extends RecyclerView.ViewHolder {
 
         private TalabiaTextView tv_menu_title;
         private ImageView iv_menu_icon;

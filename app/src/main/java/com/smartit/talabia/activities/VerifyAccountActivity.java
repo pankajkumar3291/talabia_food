@@ -104,6 +104,7 @@ public class VerifyAccountActivity extends AppCompatActivity implements View.OnC
     private void setOnClickListener() {
         this.iv_back_arrow.setOnClickListener(this);
         this.tv_verify.setOnClickListener(this);
+
         this.et_text_1.addTextChangedListener(textChangeListener1);
         this.et_text_2.addTextChangedListener(textChangeListener2);
         this.et_text_3.addTextChangedListener(textChangeListener3);

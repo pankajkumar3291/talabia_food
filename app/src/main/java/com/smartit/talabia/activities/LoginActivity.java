@@ -41,6 +41,7 @@ import com.smartit.talabia.util.ObjectUtil;
 import org.json.JSONObject;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -161,7 +162,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
         if (requestCode == RC_SIGN_IN && resultCode == RESULT_OK) {
             GoogleSignInAccount account = result.getSignInAccount();
-            socialLogin(account.getGivenName(), account.getFamilyName(), account.getEmail(), account.getId());
+            socialLogin(Objects.requireNonNull(account).getGivenName(), account.getFamilyName(), account.getEmail(), account.getId());
         } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
         }
@@ -247,7 +248,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
         });
         Bundle parameters = new Bundle();
-        parameters.putString("fields", "id,first_name,last_name,email");
+        parameters.putString("fields","id,first_name,last_name,email");
         request.setParameters(parameters);
         request.executeAsync();
     }
@@ -320,6 +321,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         return true;
     }
 
+    @Override
     protected void onResume() {
         this.noNet.RegisterNoNet();
         super.onResume();
